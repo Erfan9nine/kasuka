@@ -1,0 +1,29 @@
+.icons__under__tittle__container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.icons__under__tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+margin-bottom: -5rem;
+}
+.icon__under__tittle{
+filter:grayscale(1);
+transition: all 150ms linear;
+cursor: pointer;
+}
+.icon__under__tittle:hover{
+filter:grayscale(0);
+}
+.circle__icon__under__tittle{
+
+}
+.circles{
+color: rgba(150, 149, 149,.6);
+    font-size: 9rem;
+}

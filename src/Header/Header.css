@@ -1,0 +1,85 @@
+.main__header__container {
+  width: 100%;
+  height: 90.7vh;
+  
+}
+.filter {
+  perspective: 100px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/public/img/image/bay_bridge_new_york-wallpaper-1366x768.jpg") fixed
+      center center;
+}
+.header__container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  margin-top: -2rem;
+}
+.beging {
+  border: 2px solid orange;
+  padding: 0.8rem 1.5rem;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 200ms linear;
+}
+.beging:hover {
+  background-color: orange;
+  color: rgba(0, 0, 0, 0.4);
+}
+.nav-bar {
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.list__item {
+  margin-right: 1rem;
+}
+.item__link {
+  color: white;
+
+  text-decoration: none;
+  transition: all 200ms linear;
+}
+.item__link:hover {
+  color: orange;
+}
+.logo {
+  color: white;
+  width: auto;
+}
+.active-item {
+  color: orange;
+}
+.products {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.logo-image {
+  width: 50px;
+  height: 50px;
+}
+.logo__container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}

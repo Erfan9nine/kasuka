@@ -1,0 +1,32 @@
+.pro {
+  color: white;
+  display: block;
+  
+}
+.container-pro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.7rem;
+  width: 5rem;
+  border: 1px solid white;
+}
+.container-pro:hover{
+ 
+  border-color: orange;
+  scale: 103%;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+p{
+  transition: all 500ms linear;
+  font-weight: 600;
+}
+.container-pro:hover p{
+  color: orange;
+  
+}
+.childs{
+  color: orange;
+}

@@ -1,0 +1,22 @@
+.container>h1{
+    width: 20%;
+    text-align: center;
+    color: white;
+    margin-top: 6rem;
+}
+p{
+    margin-bottom: 2rem;
+    color: white;
+}
+.orange{
+    color: orange;
+    font-size: 3.5rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: auto;
+    margin-top: 2rem;
+}

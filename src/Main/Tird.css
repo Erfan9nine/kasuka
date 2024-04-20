@@ -1,0 +1,53 @@
+.third__tittle-caption {
+  color: black;
+}
+.third__tittle-caption > h1 {
+  display: flex;
+}
+.third__tittle-caption > h6 {
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.third__tittle-caption > h6::after {
+  content: "";
+  width: 6rem;
+  height: 0.1rem;
+  right: 2.5rem;
+  background-color: orange;
+  top: 0.5rem;
+  position: absolute;
+}
+.third__tittle-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 18rem;
+  background-color: transparent;
+  color: black;
+  height: 18rem;
+  padding: 2rem;
+  transition: all 200ms linear;
+  cursor: pointer;
+  box-shadow: 0 0 1px 0 black;
+  
+}
+.third__tittle-products:hover {
+  perspective: 100px;
+  transform: translateY(-8px);
+  scale: 103%;
+  box-shadow: 0 0 4px 0 black;
+
+}
+.third__tittle-products > p {
+  color: black;
+  text-align: justify;
+}
+.third__tittle-products > i {
+  background-color: orange;
+  padding: 1rem;
+  color: azure;
+}

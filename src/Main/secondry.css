@@ -1,0 +1,32 @@
+.tittle__container-seccond {
+  color: black;
+  display: flex;
+  
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.tittle__container-seccond > p {
+  text-align: justify;
+  color: black;
+}
+.tittle__container-seccond__icon {
+    color: orange;
+    font-size: 2rem;
+
+}
+.tittle__container-seccond__writes {
+}
+.tittle__container-seccond__tittle {
+  color: black;
+  width: 100%;
+  text-align: start;
+}
+.tittle__container-seccond__caption {
+  color: rgba(0,0, 0,0.5);
+
+}
+

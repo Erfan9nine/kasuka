@@ -1,0 +1,51 @@
+.main__article__container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    padding: 2rem 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.main__article__image{
+    grid-area: 1/2 ;
+}
+.article__image{
+    width: 100%;
+    
+}
+.main__article__topic{
+    text-align: justify;
+    
+}
+.main__article__tittle{
+    color: rgb(103, 103, 103);
+    width: 100%;
+    text-align: right;
+    
+
+}
+.main__article__caption{
+    color: black;
+
+}
+.main__article__seccond-captions__container{
+    text-align: justify;
+}
+.main__article__seccond-captions{
+    color: black;
+}
+.icon__under__tittle{
+    display: flex;
+}
+.icon__under__tittle{
+    width: 150px;
+}
+.circle__icon__under__tittle{
+
+}
+.circles{
+
+}
+span{
+    color: orange;
+}
